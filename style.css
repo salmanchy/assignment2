@@ -1,0 +1,28 @@
+.body{
+    font: font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+}
+.first-part{
+    font-size: 27px;
+    color: darkslategray;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+p{
+    font-size: 20px;
+}
+.first-part img{
+    width: 400px;
+}
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    background-color:darkslategray;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

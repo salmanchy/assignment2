@@ -1,7 +1,7 @@
 .body{
     font: font-family: 'Poppins', sans-serif;
 }
-header{
+.section{
     display: flex;
 }
 .first-part{
@@ -11,12 +11,16 @@ header{
     margin-top: 100px;
     margin-left: 50px;
 }
+
+.first-part-image{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
 p{
     font-size: 20px;
 }
-.first-part img{
-    width: 400px;
-}
+
 .button{
     font-size: 20px;
     text-decoration: none;
@@ -26,6 +30,11 @@ p{
     padding: 10px 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+/* second-part */
+
+
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,4 +76,50 @@ img{
     font-size: small;
     color: darkslategray;
 }
+.more{
+    text-align: right;
+    margin-right: 60px;
+}
+.see-more{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkslategray;
+}
 
+
+/* footer */
+
+
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+.copywright{
+    font-size: small;
+}
+.footer-title{
+    margin-top: 20px;
+}
+.social-links{
+    color: white;
+}
+
+/* media-queries */
+
+/* mobile-devices */
+
+
+@media only screen and (max-width:688px) {
+    .salman{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:688px) {
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
+}

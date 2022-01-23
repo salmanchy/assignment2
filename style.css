@@ -26,3 +26,35 @@ p{
     padding: 10px 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.collections{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.second-part-title{
+    font-size: 27px;
+    color: darkslategray;
+}
+img{
+    width: 300px;
+    height: 256px;
+}
+.blog-title{
+    font-size: 30px;
+}
+.ratings{
+    display: flex;
+}
+.price{
+    font-size: 30px;
+    color: darkslategray;
+}
+.fa-star{
+    color: red;
+}
+.ratings, .ratings-point{
+    font-size: small;
+}
+.shipping{
+    font-size: small;
+    color: darkslategray;
+}

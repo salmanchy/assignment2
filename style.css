@@ -111,15 +111,27 @@ footer{
 
 
 @media only screen and (max-width:688px) {
-    .salman{
+    .section{
+        grid-template-columns: repeat(1, 1fr);
+        } 
+        .collections{
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media screen and (max-width:688px) {
-    .collections{
-        grid-template-columns: repeat(1, 1fr);
-    }
+    
     
     
 }
+
+/* @media only screen and (max-width:1023px) {
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+} */
